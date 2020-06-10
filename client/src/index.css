@@ -75,3 +75,50 @@ body {
   color: red;
   text-align: center;
 }
+
+form{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+}
+
+input {
+  margin-bottom: 20px;
+  width: 30%;
+  height: 30px;
+  border-radius: 10px;
+}
+
+
+
+button {
+  width: 100px;
+  display: inline-block;
+  padding: 8px 11px;
+  font-size: 1.2rem;
+  text-transform: uppercase;
+  border: 0;
+  border-radius: 5px;
+  letter-spacing: 2px;
+  outline: none;
+  background-color: #4dd0e1;
+  background: linear-gradient(to bottom, lightseagreen, #027eb8);
+  color: rgb(0, 0, 0);
+  cursor: pointer;
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
+  margin-top: 10px;
+  border: 1px solid black;
+  text-shadow: 1px 1px rgb(119, 119, 119);
+  text-align: center;
+  margin-right: 10px;
+}
+
+button:hover {
+  color: rgb(58, 248, 255);
+}
+
+.update {
+  text-align: center;
+}
